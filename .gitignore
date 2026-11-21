@@ -1,0 +1,13 @@
+# Build artefacts of the TikTok ad: the video, its scenes and the scripts
+# that rendered it stay out of the entry repository, which holds only
+# main.ts, VIDEO.json, README.md, LICENSE and .makefun/owner.json.
+assets/
+scenes/
+out/
+seg-*.mp4
+clip.mp4
+concat.txt
+frame-*.png
+makefun-ad.mp4
+build_scenes.py
+render.sh
